@@ -1,0 +1,41 @@
+"><!DOCTYPE html>
+<html lang="en
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+
+  <title>Login</title>
+</head>
+<body>
+  <div class="login-container">
+    <div class="image-container">
+      <h1>Welcome</h1>
+      <hr>
+      <h1>Back!</h1>
+    </div>
+    <div class="form-container">
+      <h1>Login</h1>
+      <form class="login-form">
+        <label for="username">Username</label>
+        <input type="text" id="username" />
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+        <select name="role" id="role">
+          <option value="" selected disabled>Select Role</option>
+          <option value="buyer">Buyer</option>
+          <option value="seller">Seller</option>
+          <option value="visitor">Visitor</option>
+        </select>
+        <input type="submit" value="Login" />
+        <div class="user-data">
+            <h3>ข้อมูลผู้ใช้:</h3>
+            <p>Username : Thanaphon14, Password : bam141312</p>
+            <p>Username : Thanapat13, Password : new131412</p>
+          </div>
+      </form>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
